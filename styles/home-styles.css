@@ -124,8 +124,12 @@ body {
     align-items: center;
     margin-left: 25%;
     margin-bottom: 25%;
+    transition: transform 0.3s ease;
 }
 
+.grid-img:hover {
+    transform: scale(1.1);
+}
 .grid-para {
     margin-left: 20px;
     margin-right: 20px;
@@ -137,4 +141,73 @@ body {
     margin-right: 25%;
     margin-bottom: 15%;
     text-align: justify;
+}
+
+#skills h2 {
+    color: #B3C8CF; 
+    font-size: 50px;
+    margin-left: 100px;
+}
+
+#skills h3 {
+    color: #B3C8CF; 
+    font-size: 30px;
+    margin-left: 100px;
+}
+
+.programming-languages {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: 1fr 1fr 1fr;
+    grid-gap: 20px;
+    margin-top: 50px;
+}
+
+.programming-languages div {
+    flex-direction: column;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 10px;
+    padding: 20px;
+}
+
+.programming-languages div p {
+    color: #B3C8CF;
+    margin-top: 20px;
+    padding: 10px;
+    font-size: 20px;
+}
+
+.software-tools div p {
+    color: #B3C8CF;
+}
+
+.software-tools {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: 1fr 1fr 1fr;
+    grid-gap: 20px;
+    margin-top: 50px;
+}
+
+.software-tools div {
+    flex-direction: column;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 10px;
+    padding: 20px;
+}
+
+.software-tools div p {
+    color: #B3C8CF;
+    margin-top: 20px;
+    padding: 10px;
+    font-size: 20px;
+}
+
+.skills-container img:hover {
+    position: relative;
+    top: -5px;
 }
