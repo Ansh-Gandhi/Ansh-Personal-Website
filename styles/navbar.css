@@ -66,3 +66,15 @@ body {
 .nav-elements a:hover::before {
     width: 100%;
 }
+
+.resume-button {
+    text-decoration: none;
+    color: #B3C8CF;
+}
+
+.pdf-svg {
+    height:20px; 
+    filter: invert(94%) sepia(6%) saturate(1067%) hue-rotate(162deg) brightness(88%) contrast(81%);
+    position: relative;
+    top: 4px;
+}
