@@ -4,6 +4,7 @@
     cursor: default;
     position: relative;
     bottom: 50px;
+    transition: transform 0.3s ease;
 }
 
 .github {

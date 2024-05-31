@@ -37,6 +37,12 @@ body {
     box-shadow: 0px 2px 6px #6d95a3;
     margin: 20px;
     background-color: #B3C8CF;
+    transition: transform 0.3s ease;
+}
+
+.UofC:hover {
+    transform: scale(1.1);
+    transition: transform 0.3s ease;
 }
 
 .UofC img {
@@ -71,6 +77,12 @@ body {
     box-shadow: 0px 2px 6px #6d95a3;
     margin: 20px;
     background-color: #B3C8CF;
+    transition: transform 0.3s ease;
+}
+
+.launchpad:hover {
+    transform: scale(1.1);
+    transition: transform 0.3s ease;
 }
 
 .launchpad img {
@@ -85,6 +97,12 @@ body {
     box-shadow: 0px 2px 6px #6d95a3;
     margin: 20px;
     background-color: #B3C8CF;
+    transition: transform 0.3s ease;
+}
+
+.UBC:hover {
+    transform: scale(1.1);
+    transition: transform 0.3s ease;
 }
 
 .UBC img {
@@ -99,6 +117,12 @@ body {
     box-shadow: 0px 2px 6px #6d95a3;
     margin: 20px;
     background-color: #B3C8CF;
+    transition: transform 0.3s ease;
+}
+
+.udemy:hover {
+    transform: scale(1.1);
+    transition: transform 0.3s ease;
 }
 
 .udemy img {
