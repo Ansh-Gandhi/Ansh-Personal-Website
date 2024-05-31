@@ -1,0 +1,38 @@
+.footer img {
+    height:35px; 
+    filter: invert(94%) sepia(6%) saturate(1067%) hue-rotate(162deg) brightness(88%) contrast(81%);
+    cursor: default;
+    position: relative;
+    bottom: 50px;
+}
+
+.github {
+    position: relative;
+    right: 100px;
+}
+.mail {
+    position: relative;
+    left: 100px;
+}
+
+.footer-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.footer img:hover {
+    transform: scale(1.1);
+    filter: invert(100%) sepia(2%) saturate(3343%) hue-rotate(172deg) brightness(100%) contrast(97%);
+    transition: transform 0.3s ease;
+    cursor: pointer;
+}
+
+.footer hr {
+    width: 100;
+    margin-right: 100px;
+    margin-left: 100px;
+    margin-bottom: 150px;
+    border: 1px solid #B3C8CF;
+    border-radius: 50%;
+}
