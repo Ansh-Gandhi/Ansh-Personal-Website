@@ -26,6 +26,7 @@ body {
     position: relative;
     transition: transform 1500ms;
     transform-style: preserve-3d;
+    transform-origin: 194px 200px;
 }
 
 .front, .back {
@@ -99,7 +100,7 @@ p {
     margin-bottom: 20px;
 }
 
-hr {
+.divider {
     border: none;
     height: 2px;
     background-color: #43606b;
@@ -120,7 +121,7 @@ hr {
     justify-content: center;
 }
 
-a img {
+.proj-git {
     height:35px; 
     filter: invert(34%) sepia(29%) saturate(489%) hue-rotate(151deg) brightness(90%) contrast(84%);
     cursor: default;
@@ -132,7 +133,7 @@ a img {
     top: 150px;
 }
 
-a img:hover {
+.proj-git:hover {
     transform: scale(1.1);
     filter: invert(100%) sepia(2%) saturate(3343%) hue-rotate(172deg) brightness(100%) contrast(97%);
     transition: transform 0.3s ease;
@@ -149,4 +150,20 @@ a img:hover {
     height: 300px;
     width: 400px;
     margin-bottom: 20px;
+}
+
+.simon-img {
+    height: 300px;
+    width: 300px;
+    margin-bottom: 20px;
+}
+
+.simon-button {
+    top: 320px;
+}
+
+.server-img {
+    height: 300px;
+    width: 360px;
+    margin-bottom: 16px;
 }
