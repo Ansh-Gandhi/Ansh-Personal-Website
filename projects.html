@@ -4,10 +4,228 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Ansh Gandhi | Projects</title>
-    <link rel="stylesheet" href="./styles.css">
+    <link rel="stylesheet" href="./styles/projects-styles.css">
+    <link rel="stylesheet" href="./styles/navbar.css">
+    <link rel="stylesheet" href="./styles/footer.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Lora:ital,wght@0,400..700;1,400..700&display=swap" rel="stylesheet">
 </head>
 
 <body>
-    <p>UNDER CONSTRUCTION</p>
+    <header id="navbar">
+        <a href="./index.html" class="logo">AG</a>
+
+        <nav class="nav-elements">
+            <a class="home" href="./index.html">Home</a>
+            <a class="resume-button" href="./resume.pdf" target="_blank"><img class="pdf-svg"src="./images/filetype-pdf.svg" alt="file svg"> Resume</a>
+            <a href="./experience.html">Experience</a>
+            <a href="./projects.html">Projects</a>
+            <a href="./contact.html">Contact</a>
+        </nav>
+    </header>
+    <br>
+    <br>
+    <br>
+    <br>
+
+    <section id="projects-header" class="projects">
+        <h1>Projects</h1>
+    </section>
+
+    <div class="flex-container">
+        <div class="container">
+            <div class="card">
+                <div class="front">
+                    <div class="nom-img-div">
+                        <img class="nom-img" src="./images/image.png" alt="nom appetit logo">
+                    </div>
+                    <h2>Nom Appetit</h2>
+                    <hr>
+                    <p>
+                        Developed a social restaurant tracking mobile app, 
+                        focusing on creating shareable lists and implementing a machine-learning algorithm for the restaurant recommendation feature.
+                    </p>
+                </div>
+                <div class="back">
+                    <h2 class="back-header">Details</h2>
+                    <hr>
+                    <ul>
+                        <li>
+                            Designed and implemented a user-friendly front-end using Typescript and React Native which allows users to make seamless dining decisions
+                        </li>
+                        <li>
+                            Utilized Firebase and Express to enable auto-population and import functionalities for restaurant lists with advanced sorting and commenting functionalities
+                        </li>
+                    </ul>
+                    <a href="https://github.com/ubclaunchpad/nom-appetit" target="_blank" class="github"><img src="./images/github.svg" alt="github logo"></a>
+                </div>
+            </div>
+        </div>
+
+        <div class="container">
+            <div class="card">
+                <div class="front">
+                    <img class="graph-img" src="./images/Directed.svg.png" alt="graph data-type image">
+                    <h2>Graph Abstract Data Type</h2>
+                    <hr>
+                    <p>
+                        Developed a graph interface and applied it to address real-world challenges, 
+                        including assessing the impact of sea level rise and creating a boggle-playing bot.
+                    </p>
+                </div>
+                <div class="back">
+                    <h2 class="back-header">Details</h2>
+                    <hr>
+                    <ul>
+                        <li>
+                            Implemented an adjacency matrix and adjacency 
+                            list graph representation to model sea levels across divserse terrains in order to predict the impact of seal level rise for city planners
+                        </li>
+                        <li>
+                            Applied Dijkstra's algorithm to efficiently compute the shortest path between two nodes on the graph
+                        </li>
+                        <li>
+                            Utilized JUnit testing to ensure full confidence in all the code by testing all edge cases and achieving 100% line and branch coverage 
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+
+        <div class="container">
+            <div class="card">
+                <div class="front">
+                    <div class="nom-img-div">
+                        <img class="risc-img" src="./images/1592828468558.jpg" alt="risc machine image">
+                    </div>
+                    <h2>RISC Machine</h2>
+                    <hr>
+                    <p>
+                        Designed and developed a microprocessor that performs a small number of computer instructions.
+                    </p>
+                </div>
+                <div class="back">
+                    <h2 class="back-header">Details</h2>
+                    <hr>
+                    <ul>
+                        <li>
+                            Designed a 16-Bit instruction supported CPU on a FPGA utilizing Verilog, Quartus, and ModelSim
+                        </li>
+                        <li>
+                            Created tests achieving 100% coverage ensuring correctness of the created computer instructions
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+    <div class="flex-container2">
+        <div class="container">
+            <div class="card">
+                <div class="front">
+                    <img class="graph-img" src="./images/Directed.svg.png" alt="graph data-type image">
+                    <h2>Graph Abstract Data Type</h2>
+                    <hr>
+                    <p>
+                        Developed a graph interface and applied it to address real-world challenges, 
+                        including assessing the impact of sea level rise and creating a boggle-playing bot.
+                    </p>
+                </div>
+                <div class="back">
+                    <h2 class="back-header">Details</h2>
+                    <hr>
+                    <ul>
+                        <li>
+                            Implemented an adjacency matrix and adjacency 
+                            list graph representation to model sea levels across divserse terrains in order to predict the impact of seal level rise for city planners
+                        </li>
+                        <li>
+                            Applied Dijkstra's algorithm to efficiently compute the shortest path between two nodes on the graph
+                        </li>
+                        <li>
+                            Utilized JUnit testing to ensure full confidence in all the code by testing all edge cases and achieving 100% line and branch coverage 
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+
+        <div class="container">
+            <div class="card">
+                <div class="front">
+                    <div class="nom-img-div">
+                        <img class="epilog-img" src="./images/Custom Size 1.png" alt="epilog logo">
+                    </div>
+                    <h2>Epilog</h2>
+                    <hr>
+                    <p>
+                        Led the design of a user centric mHealth app, simplifying epilepsy management for individuals and caregivers through streamlined tasks.
+                    </p>
+                </div>
+                <div class="back">
+                    <h2 class="back-header">Details</h2>
+                    <hr>
+                    <ul>
+                        <li>
+                            Coded the front-end of the reminders page and linked it to the back end using React Native, JavaScript, and Firebase
+                        </li>
+                        <li>
+                            Led the design and created the logo for the app
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+        
+        <div class="container">
+            <div class="card">
+                <div class="front">
+                    <div class="nom-img-div">
+                        <img class="nom-img" src="./images/" alt="simon game board">
+                    </div>
+                    <h2>Simon Game</h2>
+                    <hr>
+                    <p>
+                        Developed a digital simulation of an electronic game designed to challenge short-term memory skills through the memorization of sequences of flashing colors.
+                    </p>
+                </div>
+                <div class="back">
+                    <h2 class="back-header">Details</h2>
+                    <hr>
+                    <ul>
+                        <li>
+                            Designed and implemented a user-friendly front-end using TypeScript and React Native which allows users to make seamless dining decisions
+                        </li>
+                        <li>
+                            Utilized Firebase and Express to enable auto-population and import functionalities for restaurant lists with advanced sorting and commenting functionalities
+                        </li>
+                    </ul>
+                    <a href="https://github.com/Ansh-Gandhi/Simon-Game" target="_blank" class="github"><img src="./images/github.svg" alt="github logo"></a>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <br>
+    <br>
+
+    <div class="footer">
+        <hr>
+        <div class="footer-container">
+            <a href="https://github.com/Ansh-Gandhi" target="_blank" class="github"><img src="./images/github.svg" alt="github logo"></a>
+            <a href="https://www.linkedin.com/in/ansh-gandhi04" target="_blank"><img src="./images/linkedin.svg" alt="linkedIn Logo"></a>
+            <a href="mailto: anshgandhi@hotmail.com" class="mail"><img src="./images/envelope.svg" alt=""></a>
+        </div>
+    </div>
+
+    <script src="./scripts.js"></script>
+
 </body>
 </html>
