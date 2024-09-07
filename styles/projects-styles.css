@@ -60,6 +60,13 @@ body {
     margin-top: 100px;
 }
 
+.flex-container3 {
+    display: flex;
+    justify-content: space-evenly;
+    justify-items: center;  
+    margin-top: 100px;
+}
+
 .projects h1 {
     color: #B3C8CF; 
     font-size: 90px;
@@ -108,6 +115,16 @@ p {
     margin-bottom: 20px;
 }
 
+.divider-stock {
+    border: none;
+    height: 2px;
+    background-color: #43606b;
+}
+
+.divider-stock-pad {
+    margin-bottom: 20px;
+}
+
 .back-header {
     margin-bottom: 10px;
 }
@@ -117,9 +134,32 @@ p {
     width: 320px;
 }
 
+.stocks-img {
+    height: 320px;
+    width: 390px;
+}
+
 .nom-img-div {
     display: flex;
     justify-content: center;
+}
+
+.proj-git-stock {
+    height:35px; 
+    filter: invert(34%) sepia(29%) saturate(489%) hue-rotate(151deg) brightness(90%) contrast(84%);
+    cursor: default;
+    position: relative;
+    bottom: 40px;
+    transition: transform 0.3s ease;
+    position: relative;
+    left: 400px;
+}
+
+.proj-git-stock:hover {
+    transform: scale(1.1);
+    filter: invert(100%) sepia(2%) saturate(3343%) hue-rotate(172deg) brightness(100%) contrast(97%);
+    transition: transform 0.3s ease;
+    cursor: pointer;
 }
 
 .proj-git {
