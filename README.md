@@ -5,3 +5,7 @@ Welcome to my personal portfolio website! I'm Ansh Gandhi, and through this webs
 ## Updates to be made:
 
 - Add CSS media queries to better support the website on smaller devices
+
+&nbsp;
+
+Link to the website: https://ansh-gandhi.github.io/Ansh-Personal-Website/
