@@ -162,6 +162,44 @@ p {
     cursor: pointer;
 }
 
+.movie-git {
+    height:35px; 
+    filter: invert(34%) sepia(29%) saturate(489%) hue-rotate(151deg) brightness(90%) contrast(84%);
+    cursor: default;
+    position: relative;
+    bottom: 50px;
+    transition: transform 0.3s ease;
+    position: relative;
+    left: 400px;
+    top: 85px;
+}
+
+.movie-git:hover {
+    transform: scale(1.1);
+    filter: invert(100%) sepia(2%) saturate(3343%) hue-rotate(172deg) brightness(100%) contrast(97%);
+    transition: transform 0.3s ease;
+    cursor: pointer;
+}
+
+.chat-git {
+    height:35px; 
+    filter: invert(34%) sepia(29%) saturate(489%) hue-rotate(151deg) brightness(90%) contrast(84%);
+    cursor: default;
+    position: relative;
+    bottom: 50px;
+    transition: transform 0.3s ease;
+    position: relative;
+    left: 400px;
+    top: 65px;
+}
+
+.chat-git:hover {
+    transform: scale(1.1);
+    filter: invert(100%) sepia(2%) saturate(3343%) hue-rotate(172deg) brightness(100%) contrast(97%);
+    transition: transform 0.3s ease;
+    cursor: pointer;
+}
+
 .proj-git {
     height:35px; 
     filter: invert(34%) sepia(29%) saturate(489%) hue-rotate(151deg) brightness(90%) contrast(84%);
@@ -207,4 +245,11 @@ p {
     height: 300px;
     width: 360px;
     margin-bottom: 16px;
+}
+
+.chat-img {
+    height: 300px;
+    margin-bottom: 16px;
+    position: relative;
+    left: 25px;
 }
